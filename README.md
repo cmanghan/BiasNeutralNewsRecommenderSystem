@@ -2,9 +2,9 @@ This program is designed to identify and neutralize the effects of bias in the n
 
 Currently, the program pulls from a dataset of articles. Each article within the database is labeled with seven characteristics: Database ID, Title, Author, Source, Weight, URL, and Content. Articles were assigned a Database ID in the order they were collected. This ID is an arbitrary number used to conveniently identify articles and is not a measure of bias. Weights were assigned to articles based on the source’s position in Figure 1. Articles from sources in the Far Left category were assigned a weight of -2, articles from sources in the Left category were assigned a weight of -1, articles from sources in the Center category were assigned a weight of 0, articles from the Right category were assigned a weight of 1, and articles from the Far Right category were assigned a weight of 2.  Whether an article is assigned a positive or negative number is not indicative of the article’s accuracy or any personal views on the source.
 
-	The News Aggregator Prototype,begins by asking the user for a term to search within the database. The user can search any term based on their topic preferences. The user is then presented with two options: 
+The News Aggregator Prototype,begins by asking the user for a term to search within the database. The user can search any term based on their topic preferences. The user is then presented with two options: 
 
-    Enter 1 to search for the requested term in the title
+Enter 1 to search for the requested term in the title
     
 By selecting this option the News Aggregator will search for the entered term within each article stored in the database. The program will collect all results, even articles with headlines in which the search term is embedded within a larger word. For example, if the user searches the term ‘Corona,’ headlines with the term ‘Coronavirus’ will be collected, as it contains the requested inner term. 
 
