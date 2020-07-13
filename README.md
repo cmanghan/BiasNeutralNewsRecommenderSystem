@@ -14,8 +14,11 @@ If the user selects this option, the News Aggregator will search for the entered
 Once collected, the articles containing the search term are grouped by their weight and presented to the user so the total sum of weights is zero. In order to prevent information overload, which, according to Holton & Chyi (2012), “occurs when the amount of available content becomes difficult for an individual to process, often causing negative feelings on the end of the customer,” the user is presented with a maximum of five articles at a time. Depending on the chosen search term, one of the following scenarios will occur:
 
   A) A search term results in at least one matching article from each political affiliation.In this scenario, the user will be presented with five articles, one from each affiliation. 
+  
   B) A search term does not result in at least one matching article in the Far Left and/or Far Right categories.In each of these three scenarios, the user will be presented with three articles, one from each the Left, Center, and Right. 
+  
   C) A search term does not result in at least one matching article in the Left and/or Right categories. In each of these three scenarios, the user will be presented with three articles, one from each the Far Left, Center, and Far Right. 
+  
   D) A search term does not result in at least one matching article in the Left and/or Right categories, and the search term does not result in at least one matching article in the Far Left and/or Far Right categories. In any of these five scenarios, the user will only be presented with a single article from the center category. 
   
   In each of these scenarios, if a term matches with more than one article within a single affiliation, an article will be chosen at random from all matching articles to be displayed.
